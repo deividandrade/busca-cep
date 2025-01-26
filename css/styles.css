@@ -13,4 +13,22 @@ body {
 .nav-container {
   height: 80px;
   background-color: #edf4f2;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-main {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-link {
+  color: #41474d;
+  cursor: pointer;
 }
