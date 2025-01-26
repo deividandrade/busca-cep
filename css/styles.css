@@ -76,7 +76,7 @@ body {
 }
 
 .form-input:disabled {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .btn-container {
@@ -101,4 +101,37 @@ body {
 
 .btn-right {
   margin-left: 10px;
+}
+
+.list-container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-list-item {
+  background-color: #4c0677;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card-list-item h3 {
+  color: #ff6200;
+  font-size: 18px;
+}
+
+.address-line {
+  color: #fff;
+  font-size: 14px;
+}
+
+.address-cep {
+  color: #8f8f8f;
+  font-size: 12px;
 }
